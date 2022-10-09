@@ -17,5 +17,5 @@ string Replase(string text, char oldValue, char newValue);
 }
 
 string newText = Replase(text, ' ', '*');
-ConsoleWrite(newText);
+Console.Write(newText);
 
