@@ -33,4 +33,3 @@ int[] array = new int[5]; // Задается новый массив из N э�
 
 FillArray(array);
 PrintArray(array);
-
