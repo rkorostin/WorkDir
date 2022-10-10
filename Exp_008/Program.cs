@@ -28,4 +28,5 @@ int max3 = FunctionFindMax(c1, c2, c3);  // Поиск max3 из "с"
 int max = FunctionFindMax(FunctionFindMax(a1, a2, a3), FunctionFindMax(b1, b2, b3), FunctionFindMax(c1, c2, c3));
 // 28 строка - это уже функциональное программирование, когда в аргументы функции 
 // можно добавлять другой метод. Метод в методе...
+
 Console.WriteLine(max);
