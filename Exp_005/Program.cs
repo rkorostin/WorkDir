@@ -1,4 +1,6 @@
-﻿Console.Write("Введите имя пользователя: ");
+﻿// На точное совпадение ToLower
+
+Console.Write("Введите имя пользователя: ");
 string username = Console.ReadLine();
 //if(username == "роман") // На точное совпадение
 if (username.ToLower() == "роман")
