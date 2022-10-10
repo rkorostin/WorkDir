@@ -1,17 +1,20 @@
-﻿/* ТИП ДАННЫХ[] ИМЯ = {Значение1,Значение2, ...}
+﻿/* 
+ТИП ДАННЫХ[] ИМЯ = {Значение1,Значение2, ...}
 int[] array = { 9, 28, 1, 32, 1990 }
 int[] array = { 0, 0, 0, 0, 0 }
 int[] array = new int[5];
 int[] array = new int[]{ 0, 0, 0, 0, 0 }
-int[] array = new int[5]{ 1, 0, 2, 0, 3 } */
+int[] array = new int[5]{ 1, 0, 2, 0, 3 } 
+*/
 
 // Вспомогательный механизм, который ищет максимальное из трёх чисел
-int FunctionFindMax(int arg1, int arg2, int arg3) // FunctionFindMax - имя новой функции (метода)
+int FunctionFindMax(int arg1, int arg2, int arg3) 
+// FunctionFindMax - имя новой функции (метода)
 // В неё входят три аргумента arg1, arg2 и arg3
-{
-    int result = arg1;                      // Описание тела метода
-    if (arg2 > result) result = arg2;          // Описание тела метода
-    if (arg3 > result) result = arg3;          // Описание тела метода
+{  // Описание тела метода
+    int result = arg1;                      
+    if (arg2 > result) result = arg2;          
+    if (arg3 > result) result = arg3;          
     return result;         // Метод возвращает результат (result)
 }
 /*
@@ -27,7 +30,7 @@ int c3 = 322;
 */
 //              0   1  2   3     4   5   6   7  8 -> нумерация элементов в массиве
 int[] array = { 9, 28, 1, 32, 1990, 34, 23, 33, 9999 }; // определяем массив
-//Т.е. одной строкой записали с 18 по 26 строки
+//Т.е. одной строкой (32-ой) записали с 18 по 26 строки
 array[0] = 333; // присвоил первому элементу массива значение 333
 //Console.WriteLine(array[0]);
 

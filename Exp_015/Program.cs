@@ -3,7 +3,7 @@
 
 string text = "Пример текста, в котором нужно заменить все пробелы на символ *";
 
-string Replase(string text, char oldValue, char newValue);
+string Replase(string text, char oldValue, char newValue)
 {
     string result = String.Empty;
 
@@ -17,5 +17,4 @@ string Replase(string text, char oldValue, char newValue);
 }
 
 string newText = Replase(text, ' ', '*');
-Console.Write(newText);
-
+Console.WriteLine(newText);
